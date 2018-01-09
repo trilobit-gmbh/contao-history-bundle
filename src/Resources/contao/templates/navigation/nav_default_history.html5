@@ -1,0 +1,11 @@
+<dl>
+    <?php foreach ($this->items as $item): ?>
+        <dt<?php if ($item['class'] !== '') echo ' class="' . $item['class'] . '"'; ?>>
+            <a href="<?= $item['href'] ?: './' ?>" title="<?= $item['pageTitle'] ?: $item['title'] ?>" itemprop="url">
+                <span itemprop="name">
+                    <?= $item['pageTitle'] ?: $item['title'] ?>
+                </span>
+            </a>
+        </dt>
+    <?php endforeach; ?>
+</dl>
