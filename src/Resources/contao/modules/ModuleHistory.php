@@ -50,8 +50,10 @@ class ModuleHistory extends Module
 
         $strHref = Environment::get('request');
 
-
-        $key = array_search($strHref, array_column($arrSession['history'][$this->keyOfHistoryItems], 'href'));
+        $key = null;
+        if (null !== $arrSession['history'][$this->keyOfHistoryItems]) {
+            $key = array_search($strHref, array_column($arrSession['history'][$this->keyOfHistoryItems], 'href'));
+        }
 
         if (   $this->recentHistoryItems == 1
             && $key !== null
