@@ -1,7 +1,7 @@
 History Bundle
 ================
 
-Das History Bundle fügt dem Contao Backend ein Frontend Modul hinzu, mit dem Sie einen konfigurierbaren History-Verlauf auf Ihrer Seite einbinden können. Konfigurierbar ist die Gesamtzahl der Einträge und ob der History-Verlauf in chronologischer Reihenfolge aufgezeichnet wird. Dazu kommt noch ein Feld, in dem der History-Schlüssel eingetragen wird, dieses wird benötigt, falls sie verschiedene Historien führen. Die Frontend Darstellung besteht aus einer Auflistung der besuchten Seiten. Analog zur Contao Paginierung wird ein Listenelement "first" an den Anfang und ein Listenelement "last" an das Ende ergänzt, wodurch die Anzahl der aufgelisteten Seiten die im Backend eingegebene Gesamtzahl der Einträge plus zwei ist. 
+Das History Bundle fügt dem Contao Backend ein Frontend Modul hinzu, mit dem Sie einen konfigurierbaren History-Verlauf der zuletzt besuchten Seiten des aktuellen Besuchers auf Ihrer Seite einbinden können. Konfigurierbar ist die Gesamtzahl der Einträge und ob der History-Verlauf in chronologischer Reihenfolge aufgezeichnet wird. Dazu kommt noch ein Feld, in dem der History-Schlüssel eingetragen wird, dieses wird benötigt, falls sie verschiedene Historien führen. Die Frontend Darstellung besteht aus einer Auflistung der besuchten Seiten. Analog zur Contao Paginierung wird ein Listenelement "first" an den Anfang und ein Listenelement "last" an das Ende ergänzt, wodurch die Anzahl der aufgelisteten Seiten die im Backend eingegebene Gesamtzahl der Einträge plus zwei ist. 
 
 ---
 
